@@ -62,6 +62,8 @@ public class Lambda_01_Test {
 
         // TODO result ne doit contenir que des personnes dont le prénom est "first_10"
 
+        //test
+
         PersonPredicate personPredicate = (p) -> Objects.equals(p.getFirstname(), "first_10");
 
         List<Person> result = filter(personList, personPredicate);
